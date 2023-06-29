@@ -4,11 +4,7 @@ const migrationsRun = require("./database/sqlite/migrations");
 const AppError = require("./utils/appError");
 
 const express = require("express");
-<<<<<<< HEAD
-=======
-const cors  = require("cors");
 
->>>>>>> fa691b941dd221eeedf92ede0ef181e9c2cec6b3
 const routes = require("./routes/index.js");
 
 const cors = require("cors");
